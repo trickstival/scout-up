@@ -40,10 +40,6 @@
         EventBus.$emit('abrirModalCadastroTipo', Se_Eh_Email_E_Senha_True_Ou_Eh_Auth_Provider_False)
       }
     },
-    mounted(){
-      //Tratamentos do Bus
-      console.log(this.database, this.firebase, this.auth)
-    },
     beforeCreate(){
       document.body.className='cadastro'
 
